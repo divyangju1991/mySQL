@@ -1,6 +1,6 @@
 SELECT * FROM employee;
 
-Select salary from employee order by salary DESC LIMIT 2,1;
+SELECT distinct salary from employee order by salary DESC LIMIT 2,1;
 #5300.5
 
 SELECT e.*, MAX(e.salary) from employee e GROUP BY e.department, e.id;

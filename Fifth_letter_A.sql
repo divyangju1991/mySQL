@@ -1,0 +1,1 @@
+SELECT * FROM people WHERE NAME LIKE '____a';
